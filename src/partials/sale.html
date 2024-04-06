@@ -1,0 +1,59 @@
+<section id="sale" class="sale">
+  <header class="sale__header">
+    <span class="sale__header-title">Скидка действует:</span>
+    <div class="clock">
+      <div class="clock__wrapper" id="clockdiv">
+        <div class="block">
+          <span id="minutes" class="minutes">02</span>
+          <div class="smalltext">минут</div>
+        </div>
+        <div class="block">
+          <span id="seconds" class="seconds">00</span>
+          <div class="smalltext">секунд</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container sale__container">
+    <h2 class="sale__title">Выберите подходящий тарифный план</h2>
+    <div class="sale__inner">
+      <div class="sale__image">
+        <img
+          loading="lazy"
+          src="./img/sale/img.png"
+          class="image"
+          width="434"
+          height="715"
+          alt=""
+        />
+      </div>
+      <form action="" class="sale__content">
+        <input type="hidden" name="theme" value="" />
+        <input type="hidden" name="admin_email[]" value="" />
+        <input type="hidden" name="form_subject" value="" />
+        <div class="sale__items"></div>
+        <p class="sale__description">
+          Следуя плану на 3 месяца, люди получают в 2 раза лучший результат, чем
+          за 1 месяц
+        </p>
+        <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__field" checked />
+          <div class="custom-checkbox__content">
+            Я соглашаюсь с <a href="#">Правилами сервиса</a> и условиями
+            <a href="#">Публичной оферты</a>.
+          </div>
+        </label>
+        <button type="submit" class="btn btn-reset btn-submit">
+          Купить
+          <div class="dot"></div>
+        </button>
+        <p class="sale__text">
+          Нажимая «Купить», Пользователь соглашается на автоматическое списание
+          денежных средств по истечению купленного периода. Дальнейшие списания
+          по тарифам участвующим в акции осуществляются по полной стоимости
+          согласно оферте.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
