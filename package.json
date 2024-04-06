@@ -9,6 +9,8 @@
     "build": "gulp build",
     "cache": "gulp cache",
     "backend": "gulp backend",
+    "deploy": "gh-pages -d app",
+    "predeploy": "gulp",
     "zip": "gulp zip",
     "code": "editorconfig-checker"
   },
@@ -21,6 +23,7 @@
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
     "editorconfig-checker": "^4.0.1",
+    "gh-pages": "^6.1.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-avif": "^1.0.1",
