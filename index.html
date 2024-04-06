@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preload" href="fonts/PT-Root-UI_Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <title>Выберите подходящий тарифный план</title>
+  <meta name="theme-color" content="#0c0d08">
+
+  <link rel="stylesheet" href="./css/vendor.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <!-- noindex -->
+  <!--[if lt IE 11]><p   class="browsehappy container">Sorry, you are using an outdated browser. Please <a href="http://browsehappy.com/" target="_blank">update your browser</a> to improve performance, display quality, and security.</p><![endif]-->
+  <!-- /noindex -->
+
+  <main class="main">
+    <div class="content">
+
+      <section id="sale" class="sale">
+  <header class="sale__header">
+    <span class="sale__header-title">Скидка действует:</span>
+    <div class="clock">
+      <div class="clock__wrapper" id="clockdiv">
+        <div class="block">
+          <span id="minutes" class="minutes">02</span>
+          <div class="smalltext">минут</div>
+        </div>
+        <div class="block">
+          <span id="seconds" class="seconds">00</span>
+          <div class="smalltext">секунд</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container sale__container">
+    <h2 class="sale__title">Выберите подходящий тарифный план</h2>
+    <div class="sale__inner">
+      <div class="sale__image">
+        <img
+          loading="lazy"
+          src="./img/sale/img.png"
+          class="image"
+          width="434"
+          height="715"
+          alt=""
+        />
+      </div>
+      <form action="" class="sale__content">
+        <input type="hidden" name="theme" value="" />
+        <input type="hidden" name="admin_email[]" value="" />
+        <input type="hidden" name="form_subject" value="" />
+        <div class="sale__items"></div>
+        <p class="sale__description">
+          Следуя плану на 3 месяца, люди получают в 2 раза лучший результат, чем
+          за 1 месяц
+        </p>
+        <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__field" checked />
+          <div class="custom-checkbox__content">
+            Я соглашаюсь с <a href="#">Правилами сервиса</a> и условиями
+            <a href="#">Публичной оферты</a>.
+          </div>
+        </label>
+        <button type="submit" class="btn btn-reset btn-submit">
+          Купить
+          <div class="dot"></div>
+        </button>
+        <p class="sale__text">
+          Нажимая «Купить», Пользователь соглашается на автоматическое списание
+          денежных средств по истечению купленного периода. Дальнейшие списания
+          по тарифам участвующим в акции осуществляются по полной стоимости
+          согласно оферте.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </main>
+
+  <div class="graph-modal">
+  <div
+    class="graph-modal__container"
+    role="dialog"
+    aria-modal="true"
+    data-modal-target="sale-stop"
+  >
+    <button
+      class="btn-reset graph-modal__close js-modal-close"
+      aria-label="Close modal"
+    >
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18 6L6 18"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M6 6L18 18"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <div class="graph-modal__content">
+      <span class="offer">горящее предложение</span>
+      <div class="title__wrapper">
+        <div class="graph-modal__title">
+          Не упусти свой <span>последний шанс</span>
+        </div>
+        <p class="text">
+          Мы знаем, как трудно начать. <strong>Поэтому!</strong>
+        </p>
+        <div class="slogan">
+          Дарим скидку для <span>лёгкого старта</span> 🏃‍♂️
+        </div>
+      </div>
+      <form action="#" class="form">
+        <input type="hidden" name="theme" value="" />
+        <input type="hidden" name="admin_email[]" value="" />
+        <input type="hidden" name="form_subject" value="" />
+        <p class="text">Посмотри, что мы для тебя приготовили 🔥</p>
+        <div class="sale__items"></div>
+        <button type="submit" class="btn btn-reset btn-submit">
+          Начать тренироваться
+          <div class="dot"></div>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
