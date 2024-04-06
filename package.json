@@ -2,6 +2,7 @@
   "name": "test-sale",
   "version": "1.0.0",
   "description": "gulp-builder for weblayout",
+  "homepage": "https://alexdolg1967.github.io/test-sale/",
   "main": "gulpfile.js",
   "scripts": {
     "html": "node-w3c-validator -f lint -evH -i app/**/*.html",
